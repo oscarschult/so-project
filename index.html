@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">
+      Final collaborative project which is to build a survey form
+    </p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name</label>
+      <input placeholder="Enter your name" type="text" id="name" /><br />
+      <label for="email" id="email-label">Email</label>
+      <input placeholder="Enter your email" type="email" id="email" /><br />
+      <label for="number" id="number-label">Number</label>
+      <input
+        placeholder="Enter a number ranging from 1 to 3 digits"
+        type="number"
+        id="number"
+        min="1"
+        max="999"
+      /><br />
+      <select name="" id="dropdown">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option> </select
+      ><br />
+      <label for="radio1">radio1</label>
+      <input type="radio" name="radiobutton" value="radio1" id="radio1" /><br />
+      <label for="radio2">radio2</label>
+      <input type="radio" name="radiobutton" value="radio2" id="radio2" /><br />
+      <label for="radio3">radio3</label>
+      <input type="radio" name="radiobutton" value="radio3" id="radio3" /><br />
+      <label for="checkbox1">checkbox1</label>
+      <input type="checkbox" value="1" name="checkbox1" id="checkbox1" /><br />
+      <label for="checkbox2">checkbox2</label>
+      <input type="checkbox" value="2" name="checkbox2" id="checkbox2" /><br />
+      <label for="checkbox3">checkbox3</label>
+      <input type="checkbox" value="3" name="checkbox3" id="checkbox3" /><br />
+      <label for="comment"></label>
+      <textarea name="" id="comment" cols="30" rows="10"></textarea><br />
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
